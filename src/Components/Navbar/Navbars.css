@@ -1,0 +1,22 @@
+.aboutus{
+    height: 30px;
+    background-color: #007cba;
+    color: white;
+    width: auto;
+    position: fixed;
+    width: 100%;
+    transition: all 0.2s;
+}
+.aboutus p{
+    display: inline-block;
+}
+.none{
+    height: 0;
+}
+.top{
+    top: 30px;
+}
+.width{
+    height: 50px;
+    transition: all 0.2s;
+}
