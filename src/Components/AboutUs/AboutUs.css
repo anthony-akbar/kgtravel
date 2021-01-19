@@ -1,0 +1,10 @@
+.about div{
+    display: inline-block;
+}
+.img{
+    top: -200px;
+}
+.about{
+    margin: auto;
+    text-align: center;
+}

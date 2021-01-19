@@ -1,0 +1,12 @@
+.card{
+    display: inline-block;
+    margin: 10px;
+    width: 350px;
+    height: 600px;
+}
+.card-img-overlay{
+    height: auto;
+    top:auto;
+
+
+}
