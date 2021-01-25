@@ -5,6 +5,10 @@ import Carousels from "../Carousel/Carousel";
 import "./../CardCarousel/CardCarousel.css";
 import CardCarousel from "../CardCarousel/CardCarousel";
 import AboutUs from "../AboutUs/AboutUs";
+import Ratings from "../Ratings/Ratings";
+import Blog from "../Blog/Blog";
+import Footer from "../Footer/Footer";
+import Map from "../Map/Map";
 
 class App extends Component {
     render() {
@@ -12,12 +16,21 @@ class App extends Component {
                 <BrowserRouter>
                     <Navbars/>
                     <Switch>
-                        <Route path="/">
+                        <Route exact path="/">
+                            <div style={{marginLeft: "5%",marginRight: "5%"}}>
                             <Carousels/>
                             <CardCarousel/>
                             <AboutUs/>
+                            <Ratings/>
+                            </div>
                         </Route>
-
+                        <Route exact path="/blog">
+                            <Blog/>
+                            <Footer/>
+                        </Route>
+                        <Route exact path="/map">
+                            <Map/>
+                        </Route>
                     </Switch>
                 </BrowserRouter>
             );

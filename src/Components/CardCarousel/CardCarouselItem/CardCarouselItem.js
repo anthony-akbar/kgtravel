@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import {Card} from "react-bootstrap";
-import "../CardCarouselItem/CardCarouselItem.css";
+import "./CardCarouselItem.css";
 
 class CardCarouselItem extends Component {
     render() {
         return (
-            <Card className="bg-dark text-white">
+            <div className="card bg-dark text-white">
                 <Card.Img src="https://picsum.photos/350/600" alt="Card image" />
                 <Card.ImgOverlay>
                     <Card.Title>Card title</Card.Title>
@@ -15,7 +15,7 @@ class CardCarouselItem extends Component {
                     </Card.Text>
                     <Card.Text>Last updated 3 mins ago</Card.Text>
                 </Card.ImgOverlay>
-            </Card>
+            </div>
         );
     }
 }

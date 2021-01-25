@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import "./AboutUs.css";
-import {Container} from "react-bootstrap";
 
 class AboutUs extends Component {
     render() {
